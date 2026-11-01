@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alat Musik Favorit - Informasi Kontak</title>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">Alat Musik Favorit</a></h1>
+    <nav aria-label="Navigasi utama">
+      <a href="index.html">Home</a>
+      <a href="alat-musik.html">Alat Musik</a>
+      <a href="kontak.html">Informasi</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Hubungi Saya</h2>
+      <form>
+        <div>
+          <label for="fullname">Nama Lengkap</label>
+          <input type="text" id="fullname" name="fullname" required>
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <fieldset>
+          <legend>Alat Musik Favorit Kamu</legend>
+          <label><input type="radio" name="favorite" value="gitar" required> Gitar Elektrik</label>
+          <label><input type="radio" name="favorite" value="bass"> Bass Guitar</label>
+          <label><input type="radio" name="favorite" value="keyboard"> Keyboard / Piano</label>
+        </fieldset>
+
+        <div>
+          <label for="message">Pesan / Tanggapan</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit">Kirim</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Alat Musik Favorit</p>
+  </footer>
+</body>
+</html>
